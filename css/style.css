@@ -1,0 +1,587 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     min-height: 100%;
+     font-size: 100%;
+ }
+
+ .bg {
+     position: absolute;
+     left: 0;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     overflow: hidden;
+ }
+
+ #bg {
+     background-image: url(../img/fon.jpg);
+     position: absolute;
+     left: -10%;
+     top: -10%;
+     right: -10%;
+     bottom: -10%;
+     background-size: cover;
+ }
+
+ .circle {
+     position: absolute;
+     width: 305px;
+     height: 195px;
+     left: 375px;
+     top: 100px;
+ }
+
+ .earth {
+     position: absolute;
+     left: 120px;
+ }
+
+ #bottom {
+     position: absolute;
+     bottom: -193px;
+     width: 104%;
+ }
+
+ .alieneIn {
+     position: absolute;
+     left: 40%;
+     bottom: 115px;
+     display: block;
+     width: 10%;
+ }
+
+ .alieneInActive {
+     display: none
+ }
+
+ .table {
+     position: absolute;
+     width: 20%;
+     left: 35%;
+     bottom: 10px;
+ }
+
+ .cherga {
+     position: absolute;
+     bottom: 10px;
+     left: 60%;
+ }
+
+ .alienMargin {
+     margin-left: 30px;
+ }
+
+ .raketa {
+     position: absolute;
+     width: 290px;
+     bottom: 22%;
+     left: 65%;
+ }
+
+ .pasagr1 {
+     position: absolute;
+     bottom: 22%;
+     left: 78%;
+ }
+
+ .pasagr1Active {
+     transform: rotate(20deg);
+     bottom: 24%;
+ }
+
+ .pasagr2 {
+     position: absolute;
+     bottom: 22%;
+     left: 82%;
+ }
+
+ .pasagr2Active {
+     transform: rotateY(-30deg);
+ }
+
+ .spic img:nth-child(1) {
+     bottom: 0;
+     position: absolute;
+     left: 10%;
+     width: 10%;
+ }
+
+ .spic img:nth-child(2) {
+     bottom: 20px;
+     position: absolute;
+     left: 20%;
+     width: 10%;
+ }
+
+ .back {
+     position: absolute;
+     top: 5%;
+     left: 5%;
+     transition: 1s;
+ }
+
+ .backActive {
+     left: 3%;
+     top: 7%;
+     transition: 1s;
+ }
+
+ li {
+     list-style: none;
+ }
+
+ .left-panel {
+     position: absolute;
+     top: 30%;
+     right: 5%;
+ }
+
+ .menu {
+     margin-right: 50px;
+ }
+
+ .menu1 {
+     position: absolute;
+ }
+
+ .menu1Active {
+     transform: rotate(40deg);
+ }
+
+ .menu2 {
+     position: absolute;
+     top: 15px;
+ }
+
+ .menu2Active{
+     transform: rotate(-40deg);
+     top: 0;
+ }
+
+ .menu3 {
+     position: absolute;
+     top: 30px;
+ }
+
+ .menu3Active {
+     display: none;
+ }
+
+ .icon {
+     margin-top: 60px;
+     display: none;
+ }
+
+ .icon-active {
+     display: block;
+ }
+
+ .icon li {
+     text-align: center;
+ }
+
+ .icon img {
+     height: 50px;
+     margin-top: 20px;
+ }
+
+ .phone {
+     display: block;
+ }
+
+ .phone-text {
+     font-size: 26px;
+     position: absolute;
+     top: 90px;
+     right: 140px;
+     opacity: 0;
+ }
+
+ .phone:hover .phone-text {
+     opacity: 1;
+     transition: 3s;
+ }
+
+ .insta {
+     display: block;
+ }
+
+ .insta-text {
+     font-size: 26px;
+     position: absolute;
+     top: 165px;
+     right: 120px;
+     opacity: 0;
+ }
+
+ .insta:hover .insta-text {
+     opacity: 1;
+     transition: 3s;
+ }
+
+ .in {
+     display: block;
+ }
+
+ .in-text {
+     font-size: 26px;
+     position: absolute;
+     top: 240px;
+     right: 120px;
+     opacity: 0;
+ }
+
+ .in:hover .in-text {
+     opacity: 1;
+     transition: 3s;
+ }
+
+ .face {
+     display: block;
+ }
+
+ .face-text {
+     font-size: 26px;
+     position: absolute;
+     top: 315px;
+     right: 120px;
+     opacity: 0;
+ }
+
+ .face:hover .face-text {
+     opacity: 1;
+     transition: 3s;
+ }
+
+ .youtube {
+     display: block;
+ }
+
+ .youtube-text {
+     font-size: 26px;
+     position: absolute;
+     top: 389px;
+     right: 120px;
+     opacity: 0;
+ }
+
+ .youtube:hover .youtube-text {
+     opacity: 1;
+     transition: 3s;
+ }
+
+ .contact {
+     background: url(../img/contact-fon.png) no-repeat;
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     margin: auto;
+     display: none;
+     background-size: 100%;
+ }
+
+.contactActive {
+    display: block;
+} 
+
+ .contact p {
+     text-align: center;
+     color: #53175a;
+     font-size: 36px;
+ }
+
+ .contact img {
+     margin: auto;
+     width: 85px;
+     display: block;
+     margin-top: 40px;
+ }
+
+ .contact h2 {
+     color: #53175a;
+     font-size: 60px;
+     text-align: center;
+     margin-top: 135px;
+ }
+
+ .text-email {
+     margin-top: 40px;
+ }
+
+ .p-margin {
+     margin-top: 30px;
+ }
+
+
+
+ .anceta-container {
+     background: url(../img/nlo.png) no-repeat;
+     margin: auto;
+     position: absolute;
+     height: 66%;
+     width: 70%;
+     top: 10%;
+     left: 15%;
+     display: none;
+     background-size: 35%;
+
+ }
+
+ .anceta-container-active {
+     display: block;
+ }
+ .cd-dropdown,
+.cd-select {
+	position: relative;
+	width: 420px;
+	margin: 20px auto;
+	display: block;
+}
+
+.cd-dropdown > span {
+	
+	line-height: 60px;
+	color: #337c7a;
+	font-weight: 700;
+	font-size: 16px;
+	display: block;
+	padding: 0 50px 0 30px;
+	position: relative;
+    cursor: pointer;
+    border: 1px solid #fff;
+}
+
+.cd-dropdown > span:after {
+	content: '\25BC';
+	position: absolute;
+	right: 0px;
+	top: 15%;
+	width: 50px;
+	text-align: center;
+	font-size: 12px;
+	padding: 10px;
+	height: 70%;
+	line-height: 24px;
+	
+}
+
+.cd-dropdown.cd-active > span:after {
+	content: '\25B2';
+}
+
+.cd-dropdown ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: block;
+    position: relative;
+    height: auto;
+    
+}
+
+.cd-dropdown ul li {
+    display: block;
+    border: 1px solid #fff;
+}
+
+.cd-dropdown ul li span {
+	width: 100%;
+	line-height: 60px;
+	padding: 0 30px 0 75px;
+	display: block;
+	color: #000;
+	cursor: pointer;
+    font-weight: 700;
+  
+}
+
+.cd-dropdown > span,
+.cd-dropdown ul li span {
+	-webkit-backface-visibility: hidden;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.cd-dropdown > span span[class^="icon-"],
+.cd-dropdown > span span[class*=" icon-"]{
+	padding: 0 30px 0 45px;
+}
+
+
+.cd-select {
+	border: 1px solid #ddd;
+}
+
+.optionText {
+    display: block;
+}
+
+.textHover {
+    position: absolute;
+    display: none;
+    border: 1px solid #fff;
+    height: 165px;
+    width: 420px;
+    font-size: 12px;
+    padding: 25px;
+    top: 95px;
+    left: 855px;
+    
+}
+
+.inputbottom {
+   
+    width: 420px;
+    margin: 20px auto;
+    display: block;
+}
+
+
+
+
+ .name {
+    background-color: transparent;
+    max-width: 420px;
+    height: 35px;
+    width: 100%;
+    position: absolute;
+    
+    top: 285px;
+    padding-left: 10px;
+
+ }
+
+ .namber {
+    background-color: transparent;
+    max-width: 420px;
+    height: 35px;
+    width: 100%;
+    position: absolute;
+  
+    top: 328px;
+    padding-left: 10px;
+ }
+
+ .email {
+    background-color: transparent;
+    max-width: 420px;
+    height: 35px;
+    width: 100%;
+    position: absolute;
+  
+    top: 370px;
+    padding-left: 10px;
+ }
+
+ .buttom {
+    background-color: transparent;
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    margin-left: 100px;
+    top: 430px;
+    color: #337c7a;
+    font-size: 18px;
+    text-align: center; 
+}
+
+.valueTag {
+    border: 1px solid #fff;
+    width: 420px;
+    height: 50px;
+    font-size: 26px;
+    padding: 10px;
+    margin: auto;
+    display: block;
+    color: #337c7a;
+    
+}
+
+.valueTag:after {
+    content: '\25bc';
+    float: right;
+    color: #1b7292;
+}
+
+.selectMenuBox {
+    border: 1px solid #fff;
+    padding: 10px;
+    margin: auto;
+   
+    width: 420px;
+    font-size: 18px;
+    margin-top: 20px;
+    display: none;
+}
+
+.selectMenuBoxActive {
+    display: block;
+}
+
+.option {
+    margin: 15px;
+    background-color: transparent;
+    width: 380px;
+    height: 30px;
+    border: none;
+    text-align: left;
+    font-size: 18px;
+}
+
+.option::after {
+    content: '\276f';
+   float: right;
+
+}
+
+.selectInfa {
+    border: 1px solid #fff;
+    padding: 10px;
+    font-size: 16px;
+    width: 420px;
+    height: 165px;
+    position: absolute;
+    top: 60px;
+    left: 765px;
+    display: none;
+
+
+}
+
+.selectInfaActive {
+    display: block;
+}
+
+@media(max-width: 1845px) {
+    .text-email {
+margin-top: 20px;
+    }
+
+    .p-margin {
+        margin-top: 15px;
+    }
+ 
+    .contact img {
+      margin-top: 15px;
+    }
+
+    .cherga img {
+      width: 20%;
+    }
+}
+
+@media (max-width: 1650px) {
+    .contact p {
+        font-size: 24px;
+    }
+}
+ 
